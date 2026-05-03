@@ -1,4 +1,4 @@
-# 🚀 Distributed Realtime Leaderboard System
+# Distributed Realtime Leaderboard System
 
 A production-inspired distributed backend system that demonstrates how modern high-scale applications handle realtime ranking, asynchronous processing, caching, persistence, recovery, monitoring, and heavy traffic.
 
@@ -67,6 +67,8 @@ The system is intentionally designed to expose practical backend engineering con
 ```
 
 ---
+
+![Architecture Diagram](./img/architecture-diagram.png)
 
 # 🔥 Key Features
 
