@@ -25,7 +25,7 @@ The system is intentionally designed to expose practical backend engineering con
 
 ---
 
-# 🧠 System Architecture
+#  System Architecture
 
 ```text
                 ┌──────────────┐
@@ -70,7 +70,7 @@ The system is intentionally designed to expose practical backend engineering con
 
 ![Architecture Diagram](./img/architecture-diagram.png)
 
-# 🔥 Key Features
+#  Key Features
 
 ## ✅ Realtime Leaderboard
 
@@ -138,7 +138,7 @@ Prometheus scrapes system metrics while Grafana visualizes:
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 | Technology     | Purpose                       |
 | -------------- | ----------------------------- |
@@ -183,7 +183,7 @@ leaderboard-system/
 
 ---
 
-# ⚙️ How the System Works
+#  How the System Works
 
 ## 1. Score Submission
 
@@ -232,7 +232,7 @@ If Redis crashes:
 
 ---
 
-# 🚀 Getting Started
+#  Getting Started
 
 # Prerequisites
 
@@ -244,7 +244,7 @@ Install:
 
 ---
 
-# 📥 Clone Repository
+#  Clone Repository
 
 ```bash
 git clone https://github.com/yourusername/distributed-leaderboard-system.git
@@ -254,7 +254,7 @@ cd distributed-leaderboard-system
 
 ---
 
-# 🐳 Run the Entire System
+#  Run the Entire System
 
 ```bash
 docker compose up --build
@@ -271,7 +271,7 @@ This starts:
 
 ---
 
-# 🔍 Verify Running Containers
+#  Verify Running Containers
 
 ```bash
 docker ps
@@ -288,7 +288,7 @@ Expected containers:
 
 ---
 
-# 🌐 Service URLs
+#  Service URLs
 
 | Service    | URL                                            |
 | ---------- | ---------------------------------------------- |
@@ -300,7 +300,7 @@ Expected containers:
 
 ---
 
-# 📡 API Endpoints
+#  API Endpoints
 
 # Submit Score
 
@@ -364,7 +364,7 @@ GET /api/rank/samuel
 
 ---
 
-# 📈 Monitoring & Observability
+#  Monitoring & Observability
 
 # Prometheus
 
@@ -423,7 +423,7 @@ rate(http_request_duration_seconds_count[1m])
 
 ---
 
-# 🚦 Load Testing
+#  Load Testing
 
 This project uses k6 to simulate heavy traffic.
 
@@ -459,7 +459,7 @@ k6 run --vus 100 --duration 30s loadtest.js
 
 ---
 
-# 🔥 Redis Recovery System
+#  Redis Recovery System
 
 This project includes a disaster recovery mechanism.
 
@@ -491,7 +491,7 @@ This reconstructs the leaderboard from PostgreSQL.
 
 ---
 
-# 🧪 Engineering Concepts Demonstrated
+#  Engineering Concepts Demonstrated
 
 | Concept                   | Description                     |
 | ------------------------- | ------------------------------- |
@@ -507,7 +507,7 @@ This reconstructs the leaderboard from PostgreSQL.
 
 ---
 
-# 📚 What I Learned Building This
+#  What I Learned Building This
 
 This project was built to gain hands-on experience with:
 
@@ -524,24 +524,7 @@ This project was built to gain hands-on experience with:
 
 ---
 
-# 🚀 Possible Future Improvements
 
-Potential production-grade enhancements:
-
-* Horizontal scaling
-* Redis clustering
-* PostgreSQL replication
-* Dead-letter queues
-* Retry strategies
-* Rate limiting
-* Authentication & authorization
-* CI/CD pipelines
-* Kubernetes deployment
-* Redis persistence tuning
-* Alerting systems
-* Distributed tracing
-
----
 
 
 # 🤝 Contributing
@@ -551,18 +534,6 @@ Contributions, suggestions, and improvements are welcome.
 Feel free to fork the project and submit pull requests.
 
 
-# 👨‍💻 Author
-
-Samuel Happiness
-
-Passionate software engineer focused on:
-
-* Backend engineering
-* Distributed systems
-* DevOps
-* Cloud infrastructure
-* Observability
-* Scalable architectures
 
 ---
 
